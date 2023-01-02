@@ -24,83 +24,83 @@ These are the words that has been tested:<br />
 
 # How?
 At first, this program calculates all possible sequences recursively for interchangeable letters like ‘i’ to
-‘ı’ or ‘o’ to ‘ö’.
+‘ı’ or ‘o’ to ‘ö’.<br />
 Then we put all these possible sequences to ngram models to get highest possible one with ngram
-probabilities.
-Sample output from program (1gram):
-Found total of 256 combinations of = - surlara dogru surdu -
-Here are a few:
-surlara doğru surdu
-surlara doğru surdü
-surlara doğru sürdu
-surlara doğru sürdü
-Calculating the most highly version...
-Most probable sentence is
-"surlara doğru sürdü"
-With 4.574479298484037e-11 probability!
-You should look at helperFunctions.py for function of getting probable sentences.
+probabilities.<br />
+Sample output from program (1gram):<br />
+Found total of 256 combinations of = - surlara dogru surdu -<br />
+Here are a few:<br />
+surlara doğru surdu<br />
+surlara doğru surdü<br />
+surlara doğru sürdu<br />
+surlara doğru sürdü<br />
+Calculating the most highly version...<br />
+Most probable sentence is<br />
+"surlara doğru sürdü"<br />
+With 4.574479298484037e-11 probability!<br />
+You should look at helperFunctions.py for function of getting probable sentences.<br />
 
 # unigram
-Found total of 1024 combinations of = - cin seddi sinirina yaklastilar -
-"çin seddi sınırına yaklaştılar"
-With 1.6582281390642324e-14 probability!
-Found total of 1024 combinations of = - baskentinin istedigi buydu -
-"başkentinin istediği buydu"
-With 9.80245563960865e-12 probability!
-Found total of 128 combinations of = - guneye dogru ilerlediler -
-"güneye doğru ilerlediler"
-With 2.2872396492420184e-11 probability!
-Found total of 512 combinations of = - uc tane asker cin'in hakimiydi -
-"üç tane asker çin'in hakimiydi"
-With 2.3311366283578064e-18 probability!
-Found total of 2048 combinations of = - suslu manciniklari ogretti -
-"süslü mancınıkları öğretti"
-With 5.881473383765191e-12 probability!
-Found total of 128 combinations of = - yapabilecek durumda degildi -
-"yapabilecek durumda değildi"
-With 2.6139881705623066e-11 probability!
-Found total of 128 combinations of = - muhafiz kitasi oldu -
-"muhafız kıtası oldu"
-With 3.5288840302591144e-11 probability!
-Found total of 256 combinations of = - surlara dogru surdu -
-"surlara doğru sürdü"
-With 4.574479298484037e-11 probability!
-Found total of 2048 combinations of = - oldugu tartisma konusudur -
-"olduğu tartışma konusudur"
-With 6.46962072214171e-11 probability!
-Found total of 256 combinations of = - celaleddin'in pesine dustu -
-"celaleddin'in peşine düştü"
-With 1.3069940852811533e-11 probability!
-Found total of 128 combinations of = - ayrildigi haberini aldi -
-"ayrıldığı haberini aldı"
-With 2.940736691882595e-11 probability!
-Found total of 512 combinations of = - hanedaninin tavrini unutmamisti -
-"hanedanının tavrını unutmamıştı"
-With 6.534970426405767e-12 probability!
-Found total of 128 combinations of = - ele gecirmek konu oldu -
-"ele geçirmek konu oldu"
-With 1.8618701912300151e-13 probability!
-Found total of 256 combinations of = - oncu birlik dayanmisti -
-"öncü birlik dayanmıştı"
-With 6.534970426405767e-12 probability!
-Found total of 128 combinations of = - ilk kez gerceklesmisti -
-"ilk kez gerçekleşmişti"
-With 1.6337426066014418e-11 probability!
-Found total of 64 combinations of = - cengiz han da ona katildi -
-"cengiz han da ona katıldı"
-With 4.556456921466896e-13 probability!
-Found total of 64 combinations of = - sehri ele gecirdi -
-"şehri ele geçirdi"
-With 1.0978750316361688e-09 probability!
-Found total of 128 combinations of = - yapabilecek durumda degildi -
-"yapabilecek durumda değildi"
-With 2.6139881705623066e-11 probability!
-Found total of 1024 combinations of = - saldiri tuzagı kurmustu -
-"saldırı tuzağı kurmuştu"
-With 1.3069940852811533e-11 probability!
-Found total of 128 combinations of = - duvarlari onune yıgdı -
-"duvarları önüne yığdı"
-With 6.534970426405767e-12 probability!
+Found total of 1024 combinations of = - cin seddi sinirina yaklastilar -<br />
+"çin seddi sınırına yaklaştılar"<br />
+With 1.6582281390642324e-14 probability!<br />
+Found total of 1024 combinations of = - baskentinin istedigi buydu -<br />
+"başkentinin istediği buydu"<br />
+With 9.80245563960865e-12 probability!<br />
+Found total of 128 combinations of = - guneye dogru ilerlediler -<br />
+"güneye doğru ilerlediler"<br />
+With 2.2872396492420184e-11 probability!<br />
+Found total of 512 combinations of = - uc tane asker cin'in hakimiydi -<br />
+"üç tane asker çin'in hakimiydi"<br />
+With 2.3311366283578064e-18 probability!<br />
+Found total of 2048 combinations of = - suslu manciniklari ogretti -<br />
+"süslü mancınıkları öğretti"<br />
+With 5.881473383765191e-12 probability!<br />
+Found total of 128 combinations of = - yapabilecek durumda degildi -<br />
+"yapabilecek durumda değildi"<br />
+With 2.6139881705623066e-11 probability!<br />
+Found total of 128 combinations of = - muhafiz kitasi oldu -<br />
+"muhafız kıtası oldu"<br />
+With 3.5288840302591144e-11 probability!<br />
+Found total of 256 combinations of = - surlara dogru surdu -<br />
+"surlara doğru sürdü"<br />
+With 4.574479298484037e-11 probability!<br />
+Found total of 2048 combinations of = - oldugu tartisma konusudur -<br />
+"olduğu tartışma konusudur"<br />
+With 6.46962072214171e-11 probability!<br />
+Found total of 256 combinations of = - celaleddin'in pesine dustu -<br />
+"celaleddin'in peşine düştü"<br />
+With 1.3069940852811533e-11 probability!<br />
+Found total of 128 combinations of = - ayrildigi haberini aldi -<br />
+"ayrıldığı haberini aldı"<br />
+With 2.940736691882595e-11 probability!<br />
+Found total of 512 combinations of = - hanedaninin tavrini unutmamisti -<br />
+"hanedanının tavrını unutmamıştı"<br />
+With 6.534970426405767e-12 probability!<br />
+Found total of 128 combinations of = - ele gecirmek konu oldu -<br />
+"ele geçirmek konu oldu"<br />
+With 1.8618701912300151e-13 probability!<br />
+Found total of 256 combinations of = - oncu birlik dayanmisti -<br />
+"öncü birlik dayanmıştı"<br />
+With 6.534970426405767e-12 probability!<br />
+Found total of 128 combinations of = - ilk kez gerceklesmisti -<br />
+"ilk kez gerçekleşmişti"<br />
+With 1.6337426066014418e-11 probability!<br />
+Found total of 64 combinations of = - cengiz han da ona katildi -<br />
+"cengiz han da ona katıldı"<br />
+With 4.556456921466896e-13 probability!<br />
+Found total of 64 combinations of = - sehri ele gecirdi -<br />
+"şehri ele geçirdi"<br />
+With 1.0978750316361688e-09 probability!<br />
+Found total of 128 combinations of = - yapabilecek durumda degildi -<br />
+"yapabilecek durumda değildi"<br />
+With 2.6139881705623066e-11 probability!<br />
+Found total of 1024 combinations of = - saldiri tuzagı kurmustu -<br />
+"saldırı tuzağı kurmuştu"<br />
+With 1.3069940852811533e-11 probability!<br />
+Found total of 128 combinations of = - duvarlari onune yıgdı -<br />
+"duvarları önüne yığdı"<br />
+With 6.534970426405767e-12 probability!<br />
 
 --
 
