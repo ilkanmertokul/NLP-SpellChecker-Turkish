@@ -6,7 +6,7 @@ Note that “olumlu” could have been “ölümlü” but we did not choose it.
 
 ..
 
-#About the structure:
+# About the structure:
 
 Phyton used with the help of nltk library to do this project. There is a small dataset with 7k words
 called 5.txt to do testing. You can switch to 95.txt which is way bigger dataset.
@@ -22,7 +22,7 @@ This program calculates all sentences for = unigram , bigram.
 These are the words that has been tested:
 ![Ekran görüntüsü_20230102_161746](https://user-images.githubusercontent.com/61903795/210236609-f857d8c5-b191-48a1-9cf1-dde04a80a602.png)
 
-#How?
+# How?
 At first, this program calculates all possible sequences recursively for interchangeable letters like ‘i’ to
 ‘ı’ or ‘o’ to ‘ö’.
 Then we put all these possible sequences to ngram models to get highest possible one with ngram
@@ -165,8 +165,8 @@ With 8.586912273559945e-11 probability!
 Found total of 128 combinations of = - duvarlari onune yıgdı -
 "duvarları onune yığdı"
 With 8.586912273559945e-11 probability!
-#Result
-##Why unigram results are wonderful, but bigram is terrible?
+# Result
+## Why unigram results are wonderful, but bigram is terrible?
 Unigram is tested with a really small dataset, but bigram is tested with even smaller dataset. This
 results really high count of zero probabilities, and it is still really bad eventhough i used a smoothing.
 Unigram works good in small sets. If we had a million word corpora, bigram would perform better. If
