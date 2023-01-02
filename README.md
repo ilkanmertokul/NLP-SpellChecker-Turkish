@@ -9,17 +9,17 @@ Note that “olumlu” could have been “ölümlü” but we did not choose it.
 # About the structure:
 
 Phyton used with the help of nltk library to do this project. There is a small dataset with 7k words
-called 5.txt to do testing. You can switch to 95.txt which is way bigger dataset.
+called 5.txt to do testing. You can switch to 95.txt which is way bigger dataset.<br />
 There are 20 sentence samples which are all in english letters, program finds occurences on all
-possible sentences. Example :
-Found total of 256 combinations of = - surlara dogru surdu -
-Here are a few:
-surlara doğru surdu
-surlara doğru surdü
-surlara doğru sürdu
-surlara doğru sürdü
-This program calculates all sentences for = unigram , bigram.
-These are the words that has been tested:
+possible sentences. Example :<br />
+Found total of 256 combinations of = - surlara dogru surdu -<br />
+Here are a few:<br />
+surlara doğru surdu<br />
+surlara doğru surdü<br />
+surlara doğru sürdu<br />
+surlara doğru sürdü<br />
+This program calculates all sentences for = unigram , bigram.<br />
+These are the words that has been tested:<br />
 ![Ekran görüntüsü_20230102_161746](https://user-images.githubusercontent.com/61903795/210236609-f857d8c5-b191-48a1-9cf1-dde04a80a602.png)
 
 # How?
